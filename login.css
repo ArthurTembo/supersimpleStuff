@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+    }
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Keys.jpg);
+	background-size: cover;
+	background-position: center;
+    height: 109vh;
+    font-size: 20px;
+}
+.midcontainer{
+    padding-top: 13%;
+}
+
+.LogOpMain{
+    line-height: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.LogOption a{ 
+    color: white;
+}
+
+.AlphaSchl{
+    font-size: 80px;
+    letter-spacing: 15px;
+    text-align: center;
+    color: orangered;
+}
+.passwrd{
+    padding-left: 35px;
+}
+
+
+
+
+
+.StdInfo{
+    height: 58.7vh;
+    background-color: rgba(0, 0, 0, 0.043);
+    padding-left: 42%;
+    padding-top: 20px;
+    color: white;
+}
+.regnum{ 
+    padding: auto;
+    letter-spacing: 7px;
+    padding-top: 20px;
+    display: flex;
+}
+#regnumber{
+    font-size: 20px;
+}
+#security{
+    font-size: 20px;
+}
+.password{
+    padding: auto;
+    letter-spacing: 7px;
+    padding-top: 20px;
+    display: flex;
+}
+.button{
+    padding-top: 20px;
+}
+.btn{
+    font-size: 20px;
+}
+.button :hover{
+    color: orangered;
+    transition: 0s;
+}
+#LogOpId a{
+    font-size: 40px;
+    color: white;
+}
+#LogOpId :hover{
+    color: orangered;
+    transition: 0s;  
+}
+
+
+.personal_info{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Guitar.jpg);
+	background-size: cover;
+	background-position: center;
+    height: 100vh;
+    font-size: 20px;
+}
+.Cont1{
+    background-color: rgba(255, 255, 255, 0.701);
+    display: flex;
+}
+.Logo{
+    font-size: 30px;
+    color: rgba(255, 68, 0, 0.781);
+}
+.Lgout{
+    font-size: 30px;
+}
+.logout{
+    padding-top: 0.4%;
+    padding-left: 800px;
+}
+.logout :hover{
+    color: orangered;
+    transition: 0s;
+}
+.LogoCont{
+    font-size: 30px;
+    color: rgba(255, 68, 0, 0.781);
+    padding-left: 10px;
+}
+
+
+
+
+
+.accountcreate{
+    background: wheat;
+    padding-top: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: 95%;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+.submain{
+    display: flex;
+}
+.center{
+    padding-top: 5%;
+    padding-left: 35%;
+}
+
+.text_fields{
+    font-size: 19px;
+    background-color: white;
+    text-align: left;
+    padding-left: 1%;
+}
+.text_head{
+    background-color: white;
+    text-align: left;
+    padding-left: 1%;
+}
+.btn2{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.crt_acc a{
+    color: white;
+}
+
+
+.main_container{
+
+    position: absolute;
+    width: 650px;
+    height: 520px;
+    color: black;
+    background: rgba(255, 255, 255, 0.822);
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 113px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    width:8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+}
+
+
+.text_field2{
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+    padding-left: 5%; 
+    margin-top: 5px; 
+    margin-right: 70px;
+    margin-left: 70px;
+}
+#birth_date{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#first_name{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#last_name{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#program{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.head{
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+
+
+
+.bottom_cont{
+    background-color: rgba(0, 0, 0, 0.792);
+    padding-top: 0px;
+    text-align: center;
+    line-height: 35px;
+    display: flex;
+    color: white;
+    height: 520px;
+    width: 500px;
+}
+.leftcont a{
+    color: white;
+    font-size: 35px;
+}
+
+.btn_dec{
+    color: white;
+    font-size: 30px;
+    background: rgb(129, 129, 129);
+    margin-left: 75px;
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 11px;
+    height: 80px;
+    width: 83%;
+}
+
+input[type="submit"]:hover{
+    background: rgb(99, 99, 99);
+    transition: 0s;  
+}
+
+.most_bottom{
+    background-color: rgba(0, 0, 0, 0.792);
+    width: 100%;
+    height: 100%;
+}
+
+.search{
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;  
+}
+
+.searchbtn{
+    margin-left: 10px;
+    font-size: 20px;  
+}
+
+.srch{
+    padding-top: 20px;
+    display: flex;
+}
+
+.active{
+    background: rgb(88, 88, 88);
+}
+
+.main_container2{
+    position: absolute;
+    width: 650px;
+    height: 520px;
+    color: black;
+    background: rgba(255, 255, 255, 0.822);
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-left: 113px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.table_field{
+    font-size: 20px;
+    background-color: white;
+    text-align: left; 
+    margin-top: 13px; 
+    margin-right: 70px;
+
+}
+
+
